@@ -1,0 +1,235 @@
+<div class="container">
+<h1>헐크</h1>
+<form action="/zzim" method="get">
+                        <input type="hidden" value="헐크" name="name">
+                        <button type="submit" class="btn-default2"><span>내 목록에 추가하기</span></button>
+</form> 
+<div class="mv_info_area" style="display: block;">
+   <div class="mv_info">
+      <h3 class="h_movie">
+      
+      <a href="./basic.nhn?code=62560">인크레더블 헐크</a><!-- N=a:ifo.title --></h3>
+      <img src="http://ojsfile.ohmynews.com/STD_IMG_FILE/2014/1127/IE001777067_STD.jpg"></img>
+      <br>
+      <strong class="h_movie2" title="The Incredible Hulk, 2008">The Incredible Hulk, 2008</strong>
+      
+      
+      <div class="main_score">
+         
+         
+            
+            <div class="score">
+               <div class="uio_ntz_btn see">
+                  <span class="ntz _actualPointHelpBasic">
+                     <em class="blind">관람객 평점</em>
+                     <a href="#" id="actualPointHelpButtonBasic" class="help _actualPointHelpBasic">관람객 평점 도움말</a>
+                  </span>
+                  <div class="ly_ntz" id="actualPointHelpBasic" style="display:none" z-index="20">
+                     <span></span>
+                     관람객 평점은 네이버영화에서<br>예매하고 실제 관람 후 이용자들이<br>작성한 평점입니다.
+                     <button type="button" class="btn_close _actualPointHelpBasic" id="actualPointHelpCloseButtonBasic"><em>닫기</em></button>
+                  </div>
+                  <div class="ly_count" id="actualPointCountBasic" style="display:none">
+                     <span></span>
+                     참여 <em>0</em>명
+                  </div>
+               </div>
+               <a id="actualPointPersentBasic" href="./point.nhn?code=62560&amp;onlyActualPointYn=Y#pointAfterTab" class="ntz_score">
+                  <div class="star_score">
+                     
+                        
+                        
+                           <span class="st_off"><span class="st_on" style="width:0%">관람객 평점 없음</span></span>
+                        
+                     
+                  </div>
+               </a><!-- N=a:ifo.mgrating -->
+            </div>
+            
+            
+            
+            
+            <div class="score">
+               <div class="spc_score_area">
+                  <a href="./point.nhn?code=62560#pointExpertTab" class="spc">
+                     <span class="spc_score"><em class="blind">기자 · 평론가 평점</em></span>
+                     <div class="star_score">
+                        <span class="st_off"><span class="st_on" style="width:60.0%"></span></span><em class="num6">6</em><em class="dot">.</em><em class="num0">0</em><em class="num0">0</em>
+                     </div>
+                  </a><!-- N=a:ifo.crating -->
+               </div>
+            </div>
+            
+            
+         
+         
+         
+         
+         <div class="score score_left">
+            <div class="uio_ntz_btn">
+               <span class="ntz">
+                  <em class="blind">네티즌 평점</em><a href="#" class="help" id="pointHelpButtonBasic" title="네티즌 평점 도움말 보기">네티즌 평점 도움말</a>
+               </span>
+               <div class="ly_ntz" id="pointHelpBasic" style="display:none" z-index="20">
+                  <span></span>
+                  <strong class="blind">네티즌 평점 도움말</strong>
+                  
+                     
+                     
+                        국내 개봉작입니다. 관람하신 영화에 대한<br> 평점을 남겨주세요. 140자평 뿐 아니라 블<br>로그 영화 리뷰작성 시 등록한 별점도 함께<br> 반영됩니다.
+                     
+                  
+                  <button type="button" class="btn_close" id="pointHelpCloseButtonBasic"><em>닫기</em></button>
+               </div>
+               <div class="ly_count" id="pointNetizenCountBasic" style="display: none;">
+                  <span></span>
+                  참여 <em>2,092</em>명
+               </div>
+            </div>
+            <div class="star_score ">
+               <a href="./point.nhn?code=62560#pointAfterTab" id="pointNetizenPersentBasic"><span class="st_off"><span class="st_on" style="width:83.1%"></span></span><em class="num8">8</em><em class="dot">.</em><em class="num3">3</em><em class="num1">1</em></a><!-- N=a:ifo.arating -->
+            </div>
+         </div>
+         
+
+         
+            <div id="noPoint" class="score">
+               <div class="my_score_area">
+                  <!--[D] 내평점이 없는경우 화살표를 없애기 위해 class="my"가 빠진다 -->
+                  <a href="./point.nhn?code=62560#pointAfterTab">
+                     <span class="my_score"><em class="blind">내 평점</em></span>
+                     <div class="star_score">
+                        <span class="st_off"><span class="st_on" style="width:0%">0점</span></span>
+                        <span class="btn_write">등록</span>
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div id="existPoint" class="score" style="display : none">
+               <div class="my_score_area">
+                  <a href="javascript:pointBasic.toggleMyPoint();" class="my">
+                     <span class="my_score">
+                        <em class="blind">내 평점</em>
+                     </span>
+                     <div id="starPoint" class="star_score">
+                        <span class="st_off"><span id="pointStar" class="st_on" style="width:0%"></span></span>
+                     </div>
+                  </a><!-- N=a:ifo.marating -->
+                  <div class="ly_my" id="myPointLayerBasic" style="display:none">
+                     <span id="pointText"></span><a id="pointRemove" href="javascript:checkAlreadyPointAfterExist('basic', );" class="btn_del">삭제</a>
+                     <a href="javascript:pointBasic.toggleMyPoint();" class="btn_close"><em>닫기</em></a>
+                  </div>
+               </div>
+            </div>
+         
+      </div>
+            
+      <dl class="info_spec">
+         <dt class="step1"><em>개요()</em></dt>
+         <dd>
+            <p>
+            
+               <span>
+               <a href="/movie/sdb/browsing/bmovie.nhn?genre=19">액션</a><!-- N=a:ifo.genre -->, 
+               
+            
+               
+               <a href="/movie/sdb/browsing/bmovie.nhn?genre=2">판타지</a><!-- N=a:ifo.genre -->, 
+               
+            
+               
+               <a href="/movie/sdb/browsing/bmovie.nhn?genre=18">SF</a><!-- N=a:ifo.genre -->
+               </span>
+            
+            
+            
+            
+            
+            
+            
+               <span>
+               <a href="/movie/sdb/browsing/bmovie.nhn?nation=US">미국</a><!-- N=a:ifo.nation -->
+               
+               </span>
+            
+            
+               <span>113분 </span>
+            
+            
+               
+               <span>
+               
+               
+                  
+                     <a href="/movie/sdb/browsing/bmovie.nhn?open=2008"> 2008</a><!-- N=a:ifo.year -->
+                     <a href="/movie/sdb/browsing/bmovie.nhn?open=20080612">.06.12</a><!-- N=a:ifo.day --> 개봉
+                  
+                  
+               
+               </span>
+            
+            </p>
+         </dd>
+         
+            <dt class="step2"><em>감독</em></dt>
+            <dd><p><a href="/movie/bi/pi/basic.nhn?code=66809">루이스 리터리어</a><!-- N=a:ifo.director --></p></dd>
+
+         
+         
+            <dt class="step3"><em>출연</em></dt>
+            <dd><p><a href="/movie/bi/pi/basic.nhn?code=387">에드워드 노튼</a><!-- N=a:ifo.actor -->(브루스 배너), <a href="/movie/bi/pi/basic.nhn?code=944">리브 타일러</a><!-- N=a:ifo.actor -->(베티 로스), <a href="/movie/bi/pi/basic.nhn?code=2077">팀 로스</a><!-- N=a:ifo.actor -->(에밀 브론스키)</p><a href="detail.nhn?code=62560" title="더보기" class="more">더보기</a><!-- N=a:ifo.actmore --></dd>
+         
+         
+         
+            <dt class="step4"><em>등급</em></dt>
+            <dd>
+               <p>
+                  [국내] 
+                  
+                     <a href="/movie/sdb/browsing/bmovie.nhn?grade=1001003">15세 관람가</a><!-- N=a:ifo.filmrate -->
+                     
+                  
+                  
+                  
+                  
+                   [해외] 
+                  
+                     <a href="/movie/sdb/browsing/bmovie.nhn?grade=1011003">PG-13</a><!-- N=a:ifo.filmrate -->
+                     <a href="#" onclick="popupMovieGrade(); return false;" target="_blank" class="help" title="도움말"><em>도움말</em></a><!-- N=a:ifo.gradeguide -->
+                     
+                  
+                  
+               </p>
+            </dd>
+         
+                  
+      </dl>
+      <!-- [D] 개봉전 : 기대지수 -->
+      
+       <!-- //개봉전 : 기대지수 -->
+      
+      <div class="btn_sns">
+
+            
+            <div class="end_btn_area">
+               <ul>
+                  
+                  
+                  
+                  
+                     <div class="story_area">
+                        <div class="title_area">
+                           <h4 class="h_story"><strong class="blind">줄거리</strong></h4>
+                        </div>
+                        
+                           <h5 class="h_tx_story">새로운 영웅이 분노에서 깨어난다!</h5>
+                        
+                        <p class="con_tx">실험 중 감마선에 노출된 이후 분노를 통제할 수 없는 상태가 되면 녹색 괴물 ‘헐크’로 변하게 되는 브루스 배너(에드워드 노튼). 필사적으로 치료제 개발에 매달리지만, 그의 능력을 이용하려는 정부 군대의 끈질긴 추격을 받고 쫓기게 된다. 한편 헐크의 거대한 힘의 비밀을 파헤치던 이들은 헐크보다 더 파괴적인 ‘어보미네이션’을 만드는데 성공, 도시 전체를 집어삼키려 한다. 이에 브루스 배너는 정상적인 인생을 되찾으려던 계획을 버리고, 어보미네이션과 정부 군대, 그리고 자기 자신과의 마지막 대결을 준비하는데...</p>
+                        
+                        
+                     </div>
+                  
+                  
+               </div>
+            </div>
+</div>
